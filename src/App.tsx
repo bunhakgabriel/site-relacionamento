@@ -20,9 +20,9 @@ export default function App() {
     setIsAuthenticated(true);
   };
 
-  if (!isAuthenticated) {
-    return <AuthPage onAuthSuccess={handleAuthSuccess} />;
-  }
+  // if (!isAuthenticated) {
+  //   return <AuthPage onAuthSuccess={handleAuthSuccess} />;
+  // }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
